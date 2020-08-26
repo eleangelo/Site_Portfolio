@@ -138,6 +138,7 @@ body {
 
 .contacts-block {
     display: flex;
+    margin-bottom: 148px;
 }
 
 .contacts-form {
@@ -180,12 +181,12 @@ body {
 }
 
 .input-name {
-    background: #F8F8F8 url(/img/user-icon.svg)  no-repeat center left 20px;
+    background: #F8F8F8 url(../img/user-icon.svg)  no-repeat center left 20px;
     margin-bottom: 17px;
 }
 
 .input-phone {
-    background: #F8F8F8 url(/img/phone-icon.svg)  no-repeat center left 20px;
+    background: #F8F8F8 url(../img/phone-icon.svg)  no-repeat center left 20px;
     margin-bottom: 26px;
 }
 

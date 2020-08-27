@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="js/wow.min.js">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     <title>Site_Portfolio</title>
@@ -17,21 +19,21 @@
                     <a href="https://vk.com/id120636585" class="social-link"><img src="img/vk.svg" alt="vk"></a>
                     <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram"></a>
                     <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook"></a>
-                </div><!-- /.social-link -->
+                </div><!-- /.social -->
             </div><!-- /.hero-header -->
             <div class="hero-content">
                 <div class="hero-text">
-                    <span class="hero-subtitle">Фрилансер</span>
-                    <h1 class="hero-title">Елена Ангелова</h1>
+                    <span class="hero-subtitle wow animate__animated animate__fadeInRight">Фрилансер</span>
+                    <h1 class="hero-title animate__animated animate__fadeInRight">Елена Ангелова</h1>
                     <p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку 
                     небольшого сайта или интернет-магазина</p>
                     <button class="button hero-button">
                         Бесплатная консультация
                     </button>
                 </div>
-            <div class="hero-avatar avatar">
-                <img class="img-avatar" src="img/avatar.JPG" alt="avatar">
-            </div>
+                <div class="hero-avatar avatar">
+                    <img class="img-avatar" src="img/avatar.JPG" alt="avatar">
+                </div>
             </div><!-- /.hero-content -->
         </div>
     </header>
@@ -97,18 +99,39 @@
             <div class="contacts-block">
                 <form action="#" class="contacts-form">
                     <h3 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h3>
-                    <input type="text" class="input input-phone" placeholder="Ваш телефон">
                     <input type="text" class="input input-name" placeholder="Ваше имя">
+                    <input type="text" class="input input-phone" placeholder="Ваш телефон">
                     <button class="button form-button">Бесплатная консультация</button>
                 </form> 
                 <div class="contacts-text">
-                    <div class="contacts-data"></div>
-                    <div class="contacts-link"></div>
-                    <a href=""></a>
+                    <div class="contacts-data">
+                        <div class="cotnacts-phone">
+                            <h4 class="contacts-title">Телефон</h4>
+                            <a href="tel:+79991234567" class="contacts-link">+7 999 123-45-67</a>
+                        </div>
+                        <div class="contacts-mail">
+                            <h4 class="contacts-title">Почта</h4>
+                            <a href="mailto:ivanov@mail.ru"class="contacts-link">ivanov@mail.ru</a>
+                        </div>
+                        <div class="contacts-social">
+                            <h4 class="contacts-title">Соцсети</h4>
+                            <a href="#" class="contacts-link">t.me/ivanov</a>
+                            <a href="#" class="contacts-link">vk.me/ivanov</a>
+                            <a href="#" class="contacts-link">fb.me/ivanov</a>
+                        </div>
+                    </div>    
+                        <div class="footer-social-link">
+                        <a href="https://github.com/eleangelo/" class="social-link"><img src="img/github.svg" alt="github"></a>
+                        <a href="https://vk.com/id120636585" class="social-link"><img src="img/vk.svg" alt="vk"></a>
+                        <a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram"></a>
+                        <a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook"></a>
+                    </div>
+                    <a href="#" class="contacts-policy">Политика конфиденциальностиy</a>
                 </div>
             </div>
-            
         </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

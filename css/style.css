@@ -31,6 +31,10 @@ body {
     margin-left: 20px;    
 }
 
+.social-link:first-child {
+    margin-left: 0;
+}
+
 .hero-content {
     display: flex;
     justify-content:space-between;
@@ -138,7 +142,8 @@ body {
 
 .contacts-block {
     display: flex;
-    margin-bottom: 148px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contacts-form {
@@ -149,8 +154,7 @@ body {
     padding-top: 40px;
     padding-bottom: 49px;
     padding-left: 36px;
-    padding-right: 36px;
-    
+    padding-right: 36px;  
 }
 
 .form-title {
@@ -161,7 +165,6 @@ body {
     color: #000000;
     margin: 0 10px;
     margin-bottom: 29px;
-
 }
 
 .input {
@@ -175,9 +178,7 @@ body {
     padding-top: 18px;
     padding-bottom: 18px;
     width: 100%;
-    border: none;
-   
-    
+    border: none; 
 }
 
 .input-name {
@@ -193,5 +194,59 @@ body {
 .form-button {
     width: 100%;
 }
+
+.contacts-text {
+    flex-basis: 50%;
+}
+
+.contacts-data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 42px;  
+}
+
+.contacts-title {
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.cotnacts-phone,
+.contacts-mail   {
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+
+.contacts-social {
+    flex-basis: 100%;
+} 
+
+.contacts-link {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color:inherit;
+    margin-right: 37px; 
+} 
+
+.contacts-link:hover {
+    text-decoration: underline;
+}
+
+.footer-social-link {  
+    margin-bottom: 72px;
+}
+
+.contacts-policy {
+    font-size: 15px;
+    line-height: 18px;
+    color: #A5A5A5;
+}
+
+
+
 
 

@@ -94,10 +94,6 @@ body {
     border-radius: 50%;
 }
 
-.section {
-    background: #000000;
-}
-
 .features {
     padding-top: 59px;
     padding-bottom: 92px;
@@ -141,7 +137,85 @@ body {
 }
 
 .projects {
-    background:#000000
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 44px;
+    
+}
+
+.project-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    margin-left: 60px;
+}
+
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 42px;
+}
+
+.project-icon {
+    margin-right: 16px;
+    height: 30px;
+}
+
+.project-time,
+.project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+    display: flex;
+    align-items:flex-start;
+}
+
+.project-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+    margin-bottom: 7px;
+}
+
+.project-discription {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.projects-pagination {
+    text-align: center;
+    margin-bottom: 108px;
+}
+
+.projects-bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #FFBB01;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.projects-bullet-active {
+    background: #FFBB01;
+    cursor: default
 }
 
 .contacts-block {
